@@ -9,10 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".CalculetteActivity" />
+        <activity android:name=".TvaActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
+                <action android:name="android.intent.action.CALCULETTE" />
+                <action android:name="android.intent.action.TVA" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
